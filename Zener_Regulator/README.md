@@ -20,20 +20,19 @@
 **Circuit principle:** R1 limits current from the 12 V input; D1 is connected in reverse bias across the output and R2 represents a load. Regulation depends on the supply voltage, load current and the actual Zener characteristics; 5.1 V is a nominal target, **not a guaranteed measured output**.
 
 ### 1. Schematic
+![Schematic](images/Schematic.png)
 
-![Schematic showing J1, R1, D1, R2 and J2](images/01_Schematic.png)
+### 2. PCB Layout
+![PCB Layout](images/PCB%20Layout%20%2B%20Silkscreen.png)
 
-### 2. PCB layout and silkscreen
+### 3. PCB 3D
+![PCB 3D](images/PCB%203D.png)
 
-![PCB placement, routing, labels and outline](images/02_PCB_Layout.png)
+### 4. DRC Result
+![DRC Result](images/DRC%20Result.png)
 
-### 3. PCB 3D view
-
-![PCB 3D preview of all five components](images/03_PCB_3D.png)
-
-### 4. Design-rule check (DRC)
-
-![KiCad DRC screenshot](images/04_DRC_Result.png)
+### 5. Gerber Viewer
+![Gerber Viewer](images/Gerber%20Viewer.png)
 
 The captured KiCad check showed:
 
