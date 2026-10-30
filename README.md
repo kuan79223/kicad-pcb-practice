@@ -1,27 +1,21 @@
-KiCad PCB Design Practice
-Hands-on learning exercises in schematic design, footprint selection, PCB layout, ERC/DRC, 3D review, and fabrication-file generation using KiCad.
+# KiCad PCB Design Practice
 
-This repository contains practice designs, not production-qualified or physically tested hardware.
-Projects
-Project	Focus	Status	Details
-01 · Zener Voltage Regulator	12 V input, nominal 5.1 V Zener shunt regulator; schematic, PCB layout, Gerber/Drill	PCB design exercise completed; fabrication and physical verification pending	[View project](Zener_Regulator/README.md)
+Hands-on KiCad exercises covering schematic capture, component footprints, PCB layout, design-rule checks, 3D inspection, and manufacturing-file review.
 
+> **Scope:** This repository documents learning exercises. The boards shown here have **not** been fabricated, assembled, or physically tested.
 
-Project 01 preview
-[!\[Zener regulator PCB layout\]\(Zener_Regulator/images/02_PCB_Layout.png)](Zener_Regulator/README.md)
+## Projects
 
-For circuit diagrams, component selection, design-rule checks, 3D previews, and open verification items, open the project page above.
-Repository organization
-kicad-pcb-practice/
-├── README.md                   # Short project index
-├── .gitignore
-└── Zener_Regulator/
-    ├── README.md               # Detailed design notes and screenshots
-    ├── W02_K01_Zener_Regulator.kicad_pro
-    ├── W02_K01_Zener_Regulator.kicad_sch
-    ├── W02_K01_Zener_Regulator.kicad_pcb
-    └── images/                  # Five screenshots
-Workflow
-Schematic → ERC → Footprint → PCB Layout → DRC → 3D Review → Gerber/Drill
+| Project | What I practiced | Status | Details |
+| --- | --- | --- | --- |
+| **01 · Zener Voltage Regulator** | 12 V input / nominal 5.1 V Zener regulator; schematic, PCB routing, 3D review, DRC, Gerber/Drill inspection | PCB design exercise completed; physical verification pending | [Open project](Zener_Regulator/README.md) |
 
-Note: A passing software check is not a substitute for component datasheet review, power/thermal analysis, manufacturing checks, or measurements on assembled hardware.
+## Project 01 · PCB preview
+
+[![Zener regulator PCB layout and silkscreen](Zener_Regulator/images/PCB%20Layout%20%2B%20Silkscreen.png)](Zener_Regulator/README.md)
+
+**[View the full Zener Regulator design notes →](Zener_Regulator/README.md)**
+
+---
+
+*Each exercise has its own README with the circuit, design images, checks, and limitations. New projects will be added to the table above.*
