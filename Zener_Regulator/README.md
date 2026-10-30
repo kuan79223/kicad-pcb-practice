@@ -48,7 +48,7 @@ The captured KiCad check showed:
 
 ### 5. Gerber and drill-file review
 
-![GerbView with Gerber and drill layers loaded](images/05_Gerber_Viewer.png)
+![GerbView with Gerber and drill layers loaded](images/Gerber_Viewer.png)
 
 Gerber (`.gbr`) and Excellon drill (`.drl`) files were generated and reviewed locally using KiCad GerbView. **Fabrication files are not included in this repository.** They are practice outputs, not released manufacturing files.
 
