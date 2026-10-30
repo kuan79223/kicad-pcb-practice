@@ -46,38 +46,12 @@ The captured KiCad check showed:
 
 **Interpretation:** No violations were reported by the enabled checks at the time of the screenshot. This does not certify physical dimensions, electrical safety, or manufacturability. Two footprint-filter exceptions were documented; the exact ordered parts must still be checked against their datasheets.
 
-### 5. Gerber and drill-file review
+## 5. Gerber and drill-file review
 
-![GerbView with Gerber and drill layers loaded](images/Gerber_Viewer.png)
+![GerbView with Gerber and drill layers loaded](images/Gerber%20Viewer.png)
 
-Gerber (`.gbr`) and Excellon drill (`.drl`) files were generated and reviewed locally using KiCad GerbView. **Fabrication files are not included in this repository.** They are practice outputs, not released manufacturing files.
+Gerber (`.gbr`) and Excellon drill (`.drl`) files were generated and reviewed locally using KiCad GerbView.
 
-### Files
+Fabrication files are not included in this repository. They are practice outputs, not released manufacturing files.
 
-```text
-Zener_Regulator/
-├── README.md
-├── W02_K01_Zener_Regulator.kicad_pro
-├── W02_K01_Zener_Regulator.kicad_sch
-├── W02_K01_Zener_Regulator.kicad_pcb
-├── images/
-│   ├── 01_Schematic.png
-│   ├── 02_PCB_Layout.png
-│   ├── 03_PCB_3D.png
-│   ├── 04_DRC_Result.png
-│   └── 05_Gerber_Viewer.png
-```
 
-Open `W02_K01_Zener_Regulator.kicad_pro` with KiCad Project Manager to inspect the source design.
-
-### Known limitations / next verification steps
-
-- **No PCB has been fabricated, assembled or measured.** All results above are KiCad design outputs and screenshots.
-- Verify exact manufacturer part numbers, terminal-block dimensions, pad/hole sizes and diode polarity against datasheets.
-- Verify worst-case Zener and resistor power dissipation, resistor power ratings, thermal margin and input-voltage range.
-- Review copper width/clearance, board-edge clearance, solder-mask and silkscreen capabilities against the chosen PCB manufacturer's constraints.
-- Revisit the three ignored DRC test categories and the two documented connector footprint-filter exclusions before any fabrication release.
-
-## Learning scope
-
-This repository is for practicing **schematic design → ERC → footprint selection → PCB layout → DRC → 3D review → Gerber/Drill generation**. It is an educational exercise rather than a tested or mass-production-ready product.
