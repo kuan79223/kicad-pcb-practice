@@ -23,7 +23,7 @@ Hands-on KiCad exercises covering schematic capture, component footprints, PCB l
 
 ## Project 02 · PCB preview
 
-[![PCB_Layout_Silkscreen](CommonEmitter_Amplifier/images/PCB%20Layout%20%2B%20Silkscreen.png)](CommonEmitter_Amplifier/README.md)
+[![PCB_Layout_Silkscreen](CommonEmitter_Amplifier/images/PCB_Layout_Silkscreen.png)](CommonEmitter_Amplifier/README.md)
 
 [View the full CommonEmitter Amplifier design notes →](CommonEmitter_Amplifier/README.md)
 
