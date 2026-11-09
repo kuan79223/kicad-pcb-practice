@@ -19,13 +19,14 @@ Hands-on KiCad exercises covering schematic capture, component footprints, PCB l
 
 [![Zener regulator PCB layout and silkscreen](Zener_Regulator/images/PCB%20Layout%20%2B%20Silkscreen.png)](Zener_Regulator/README.md)
 
-**[View the full Zener Regulator design notes →](Zener_Regulator/README.md)**
+[View the full Zener Regulator design notes →](Zener_Regulator/README.md)
 
 ## Project 02 · PCB preview
 
-[![2N3904 共射極放大器 PCB](CommonEmitter_Amplifier/images/PCB%20Layout%20%2B%20Silkscreen.png)](CommonEmitter_Amplifier/README.md)
+[![PCB_Layout_Silkscreen](CommonEmitter_Amplifier/images/PCB%20Layout%20%2B%20Silkscreen.png)](CommonEmitter_Amplifier/README.md)
 
-**[View the full CommonEmitter Amplifier design notes →](CommonEmitter_Amplifier/README.md)**
+[View the full CommonEmitter Amplifier design notes →](CommonEmitter_Amplifier/README.md)
+
 ---
 
 *Each exercise has its own README with the circuit, design images, checks, and limitations. New projects will be added to the table above.*
