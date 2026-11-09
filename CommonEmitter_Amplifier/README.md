@@ -34,7 +34,7 @@ LTspice 模擬於約 1 kHz 時得到 9.896 dB 電壓增益與 −179.83° 相位
 
 **PCB Layout 與絲印**
 
-![PCB 佈局與絲印](images/PCB%20Layout%20%2B%20Silkscreen.png)
+![PCB 佈局與絲印](images/PCB_Layout_Silkscreen.png)
 
 電源、訊號輸入與輸出分別透過 J1、J2、J3 連接，並標示 +12V、GND、IN、OUT，方便後續焊接及量測。
 
