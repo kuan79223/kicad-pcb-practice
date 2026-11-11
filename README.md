@@ -10,7 +10,7 @@ Hands-on KiCad exercises covering schematic capture, component footprints, PCB l
 | --- | --- | --- | --- |
 | **01 · Zener Voltage Regulator** | 12 V input / nominal 5.1 V Zener regulator; schematic, PCB routing, 3D review, DRC, Gerber/Drill inspection | PCB design exercise completed; physical verification pending | [Open project](Zener_Regulator/README.md) |
 | **02 · Common-Emitter Amplifier** | 2N3904 共射極放大器、DC 偏壓、電壓增益、PCB Layout、ERC／DRC 與 Gerber 檢視 | PCB 設計完成，待實體驗證 | [Open project](CommonEmitter_Amplifier/README.md) |
-| **03 · Dual-Site Power Monitoring & Fault Detection Board** | 雙通道電源監控、LTspice、TLV7031、雙層 PCB、GND Plane | [Open project](mini-loadboard-power-monitor/README.md) |
+| **03 · Dual-Site Power Monitoring & Fault Detection Board** | 雙通道電源監控、LTspice、TLV7031、雙層 PCB、GND Plane |理想模型模擬及 PCB 設計初版完成；實際比較器功能與實體板待驗證 | [Open project](mini-loadboard-power-monitor/README.md) |
 
 
 
